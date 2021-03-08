@@ -16,7 +16,7 @@
 $(call inherit-product, device/hp/tenderloin/full_tenderloin.mk)
 
 # Inherit some common evervolv stuff.
-$(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
+# $(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := lineage_tenderloin
