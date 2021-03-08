@@ -19,7 +19,7 @@ $(call inherit-product, device/hp/tenderloin/full_tenderloin.mk)
 $(call inherit-product, vendor/du/config/common_full_tablet_wifionly.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := du_tenderloin
+PRODUCT_NAME := lineage_tenderloin
 PRODUCT_BRAND := HP
 PRODUCT_DEVICE := tenderloin
 PRODUCT_MODEL := Touchpad
